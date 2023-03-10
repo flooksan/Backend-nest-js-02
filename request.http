@@ -1,0 +1,16 @@
+### Find all post
+GET http://localhost:3000/api/feed
+
+### Find by one
+GET http://localhost:3000/api/feed/1
+
+### Create post
+POST http://localhost:3000/api/feed
+Content-Type: application/json
+
+{
+    "body": "Test save data to database"
+}
+
+### Delete post by id
+DELETE http://localhost:3000/api/feed/9
